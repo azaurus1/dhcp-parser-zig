@@ -7,7 +7,7 @@ A DHCP packet parser written in Zig, takes stdin for input, can read from binary
 echo discover.bin | dhcp-parser-zig
 ```
 
-## PCAP Captuer
+## PCAP Capture
 ```bash
 sudo tcpdump -U -i eth0 -w - udp port 67 or port 68 | ./dhcp_parser_zig --pcap_input
 ```
@@ -24,7 +24,7 @@ ciaddr: 0.0.0.0
 yiaddr: 0.0.0.0
 siaddr: 0.0.0.0
 giaddr: 0.0.0.0
-chaddr: 98:25:4a:bb:2b:02
+chaddr: XX:XX:XX:XX:XX:XX
 sname:
 file:
 Option: DHCP Message Type: { X }
